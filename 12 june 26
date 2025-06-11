@@ -1,0 +1,31 @@
+parameter based user aceess - form the text understood like may be there we can change value like role=admin or something like that
+
+read one more article - https://portswigger.net/web-security/access-control/security-models
+was form the last lab extra section
+
+started solving lab - User role controlled by request parameter ( https://portswigger.net/web-security/access-control/lab-user-role-controlled-by-request-parameter )
+
+things i understand
+1. admin panel at /admin
+2. identifs user by a cookie
+3. testing creds - wiener:peter
+
+steps to solve
+1. like mentioned in the lab desc there will be cookie based verification so modified the cookied and was able to solve 
+
+
+on to next lab
+
+lab2 - User role can be modified in user profile (https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile)
+
+things i understood
+1. admin panel at /admin
+2. only accessable by user with roleid =2
+3. sampe creds given
+
+things checks
+1. visiting /adming without login and with sampele cred login
+2. movig aroudn the app
+
+ig now time to sleep
+
