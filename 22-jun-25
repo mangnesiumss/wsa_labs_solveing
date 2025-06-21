@@ -1,0 +1,28 @@
+yesterday did shee the soln of the lab but failed to commit it 
+lab:-https://portswigger.net/web-security/access-control/lab-url-based-access-control-can-be-circumvented
+now not at all intested to re write what i got form the soln
+
+tired hunting centene and did few things
+1. go to /admin
+2. try to bypass using x-original-url but ddin't work it has cloudflare portection
+3. then did some dorking found nohting useful
+
+
+next target is target lol
+1. dork by site:target.com inurl:admin
+2. then got 1 link with https://www.target.com/login?user=admin&pass=1234
+3. then in caido deleted the cookie and then send then got response then anaysis by ai
+
+🚨 Why This Is a Real Finding (If in scope)
+This is likely a severe vulnerability:
+
+Issue	Why it matters
+Unauthenticated sensitive info leak	Server returned tokens, config, and session info without needing valid cookies
+JWT tokens with alg: none	Indicates misconfigured or insecure JWT implementation — possible forgers
+API key disclosure (apiKey)	May let you abuse internal APIs
+Session cookies (refreshToken, idToken, accessToken)	Could allow session takeover or privilege escalation
+
+
+
+
+
