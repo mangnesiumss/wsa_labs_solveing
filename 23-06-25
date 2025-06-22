@@ -1,0 +1,12 @@
+fck all gone did aorund 10 lines of notes
+
+Jhon123!
+
+like tired checking the reset fn and was able to find osmething bcz it only depeendent on accesstoken and old password verify
+
+so trying to burte force old pass
+
+well it has protenciton against brute force bcz it says ur acc locked and says to generate the link on email and no option there present on the iste
+
+i able to get the link would have text that link working also and agian try to brute force it with some heading change or just some blank req or like with token and then blank request
+
